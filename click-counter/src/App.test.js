@@ -120,7 +120,6 @@ describe('error when < 0', () => {
 
     // find the error text, expect the error text goes away
     const errorText = findByTestAttr(wrapper, 'error-message');
-    console.log(errorText);
     expect(errorText).toEqual({});
   });
 });
